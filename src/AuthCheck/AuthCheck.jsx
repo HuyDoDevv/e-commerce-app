@@ -1,8 +1,8 @@
-import { Navigate, useLocation } from "react-router";
+import { Navigate, useLocation } from 'react-router'
 
 const AuthCheck = ({ children }) => {
-  const isAuthenticate = false;
-  const location = useLocation();
+  const isAuthenticate = true
+  const location = useLocation()
   if (!isAuthenticate) {
     return (
       <Navigate
@@ -11,9 +11,9 @@ const AuthCheck = ({ children }) => {
           from: location,
         }}
       />
-    );
+    )
   }
-  return children;
-};
+  return children
+}
 
-export default AuthCheck;
+export default AuthCheck
