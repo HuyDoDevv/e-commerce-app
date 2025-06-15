@@ -9,37 +9,37 @@ const Banner = () => {
       id: 1,
       title: 'Best Furniture collection for your interior',
       subTitle: 'welcome to charis',
-      image: '/src/assets/Banner/banner-5.png',
+      image: '/src/assets/banner/banner-5.png',
     },
     {
       id: 2,
       title: 'Best Furniture collection for your interior',
       subTitle: 'welcome to charis',
-      image: '/src/assets/Banner/banner-5.png',
+      image: '/src/assets/banner/banner-5.png',
     },
     {
       id: 3,
       title: 'Best Furniture collection for your interior',
       subTitle: 'welcome to charis',
-      image: '/src/assets/Banner/banner-5.png',
+      image: '/src/assets/banner/banner-5.png',
     },
     {
       id: 4,
       title: 'Best Furniture collection for your interior',
       subTitle: 'welcome to charis',
-      image: '/src/assets/Banner/banner-5.png',
+      image: '/src/assets/banner/banner-5.png',
     },
     {
       id: 4,
       title: 'Best Furniture collection for your interior',
       subTitle: 'welcome to charis',
-      image: '/src/assets/Banner/banner-5.png',
+      image: '/src/assets/banner/banner-5.png',
     },
     {
       id: 4,
       title: 'Best Furniture collection for your interior',
       subTitle: 'welcome to charis',
-      image: '/src/assets/Banner/banner-5.png',
+      image: '/src/assets/banner/banner-5.png',
     },
   ]
 
@@ -52,7 +52,7 @@ const Banner = () => {
   }
   return (
     <div className="lg:container">
-      <div className="slider-container w-full h-full">
+      <div className="slider-container slider-banner-container w-full h-full">
         <Slider {...settings}>
           {products?.map((product) => (
             <div key={product?.id} className="banner_slide_item">
