@@ -95,7 +95,8 @@ const Product = () => {
     },
   ]
 
-  const productFilter = products.filter((product) => product.product == active?.product)
+  const productFilter =
+    active?.product === 'all' ? products : products.filter((product) => product.product === active.product)
 
   return (
     <div className="lg:container mx-auto">
