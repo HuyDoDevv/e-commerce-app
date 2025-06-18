@@ -14,9 +14,9 @@ const Footer = () => {
                 </Link>
               </div>
               <p className="text-base text-[#272343] font-inter font-normal mb-4 max-w-[350px]">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed delectus aliquid quae reprehenderit
-                reiciendis soluta optio ipsam iste. Ex neque aliquam quod maiores delectus mollitia illum nulla magnam
-                assumenda perferendis?
+                At Comforty, we believe a great chair does more than just provide a place to sit — it enhances your
+                comfort, supports your posture, and complements your lifestyle. Our chairs are thoughtfully designed
+                with a balance of form and function.
               </p>
               <div className="footer_social">
                 <Link>
@@ -54,22 +54,34 @@ const Footer = () => {
               <h3 className="text-xl text-[#9a9caa] font-inter font-medium uppercase">category</h3>
               <ul className="space-y-2 mt-4">
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">sofa</Link>
+                  <Link className="text-base text-[#272343] font-inter font-normal capitalize hover:opacity-50">
+                    sofa
+                  </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">armchair</Link>
+                  <Link className="text-base text-[#272343] font-inter font-normal capitalize hover:opacity-50">
+                    armchair
+                  </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">wing chair</Link>
+                  <Link className="text-base text-[#272343] font-inter font-normal capitalize hover:opacity-50">
+                    wing chair
+                  </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">desk chair</Link>
+                  <Link className="text-base text-[#272343] font-inter font-normal capitalize hover:opacity-50">
+                    desk chair
+                  </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">wooden chair</Link>
+                  <Link className="text-base text-[#272343] font-inter font-normal capitalize hover:opacity-50">
+                    wooden chair
+                  </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">park bench</Link>
+                  <Link className="text-base text-[#272343] font-inter font-normal capitalize hover:opacity-50">
+                    park bench
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -78,16 +90,24 @@ const Footer = () => {
               <h3 className="text-xl text-[#9a9caa] font-inter font-medium uppercase">support</h3>
               <ul className="space-y-2 mt-4">
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">help & support</Link>
+                  <Link className="text-base text-[#272343] font-inter font-normal capitalize hover:opacity-50">
+                    help & support
+                  </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">tearms & condition</Link>
+                  <Link className="text-base text-[#272343] font-inter font-normal capitalize hover:opacity-50">
+                    tearms & condition
+                  </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">privacy policy</Link>
+                  <Link className="text-base text-[#272343] font-inter font-normal capitalize hover:opacity-50">
+                    privacy policy
+                  </Link>
                 </li>
                 <li>
-                  <Link className="text-base text-[#272343] font-inter font-normal capitalize">help</Link>
+                  <Link className="text-base text-[#272343] font-inter font-normal capitalize hover:opacity-50">
+                    help
+                  </Link>
                 </li>
               </ul>
             </div>

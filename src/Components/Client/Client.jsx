@@ -1,6 +1,5 @@
-import React from 'react'
 import SectionTitle from '../SectionTitle/SectionTitle'
-import { ShoppingCart, User } from 'lucide-react'
+import { User } from 'lucide-react'
 import Slider from 'react-slick'
 
 const Client = () => {
@@ -49,6 +48,7 @@ const Client = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
+    arrows: false,
   }
   return (
     <div className="lg:container mx-auto">
