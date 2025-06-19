@@ -57,7 +57,10 @@ const Recent = () => {
       <div className="slider-container features_silider w-full h-full">
         <Slider {...settings}>
           {features?.map((feature, index) => (
-            <div key={index} className="p-4">
+            <div
+              key={index}
+              className="p-5 transition transform duration-300 hover:-translate-y-1 hover:opacity-50 cursor-pointer"
+            >
               <div className="feature_image mb-4 relative">
                 <img className="w-full h-full object-cover rounded-lg" src={feature?.image} alt={feature?.title} />
                 {feature?.status && (

@@ -9,37 +9,25 @@ const Banner = () => {
       id: 1,
       title: 'Best Furniture collection for your interior',
       subTitle: 'welcome to charis',
-      image: '/src/assets/banner/banner-5.png',
+      image: '/src/assets/banner/banner-1.png',
     },
     {
       id: 2,
       title: 'Best Furniture collection for your interior',
       subTitle: 'welcome to charis',
-      image: '/src/assets/banner/banner-5.png',
+      image: '/src/assets/banner/banner-2.png',
     },
     {
       id: 3,
       title: 'Best Furniture collection for your interior',
       subTitle: 'welcome to charis',
-      image: '/src/assets/banner/banner-5.png',
+      image: '/src/assets/banner/banner-3.png',
     },
     {
       id: 4,
       title: 'Best Furniture collection for your interior',
       subTitle: 'welcome to charis',
-      image: '/src/assets/banner/banner-5.png',
-    },
-    {
-      id: 4,
-      title: 'Best Furniture collection for your interior',
-      subTitle: 'welcome to charis',
-      image: '/src/assets/banner/banner-5.png',
-    },
-    {
-      id: 4,
-      title: 'Best Furniture collection for your interior',
-      subTitle: 'welcome to charis',
-      image: '/src/assets/banner/banner-5.png',
+      image: '/src/assets/banner/banner-4.png',
     },
   ]
 

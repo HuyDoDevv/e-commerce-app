@@ -1,5 +1,6 @@
+import React from 'react'
 import SectionTitle from '../SectionTitle/SectionTitle'
-import { User } from 'lucide-react'
+import { ShoppingCart, User } from 'lucide-react'
 import Slider from 'react-slick'
 
 const Client = () => {
@@ -21,7 +22,7 @@ const Client = () => {
     {
       id: 3,
       description:
-        'I’ve tried several chairs before, but this one stands out for its build quality and thoughtful design. It feels very sturdy, doesn’t wobble at all, and the seat height and angle are just perfect. You can tell that real attention to detail went into making it.',
+        'I’ve tried several chairs before, but this one stands out for its build quality and thoughtful design. It feels very sturdy, doesn’t wobble at all, and the seat height and angle are just perfect. You can tell that real attention to detail went into making it.You can tell that real attention to detail went into making it.',
       name: 'Sophia Nguyen',
       position: 'Marketing Manager',
     },
@@ -48,7 +49,6 @@ const Client = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    arrows: false,
   }
   return (
     <div className="lg:container mx-auto">
@@ -56,7 +56,7 @@ const Client = () => {
       <div className="slider-container w-full h-full">
         <Slider {...settings}>
           {clientSays?.map((client, index) => (
-            <div key={index} className="p-7 min-h-[300px] border-[1px] border-[#e1e1e3] rounded-lg">
+            <div key={index} className="p-7 border-[1px] border-[#e1e1e3] rounded-lg min-h-[300px]">
               <p className="text-2xl mb-4 text-[#636270] font-inter font-normal client_say_description">
                 {client?.description}
               </p>

@@ -17,7 +17,7 @@ const Navbar = () => {
               className="bg-none h-[30px] w-[70px] text-sm font-inter font-normal capitalize text-white"
             >
               <option>eng</option>
-              <option>bangla</option>
+              <option>vi</option>
             </select>
 
             <button className="text-sm text-white font-inter font-normal capitalize">
@@ -107,25 +107,37 @@ const Navbar = () => {
             </div>
 
             <nav className="flex items-center gap-8">
-              <NavLink to="/" className="text-sm text-[#029fae] font-inter font-medium capitalize">
+              <NavLink to="/" className="text-sm text-[#029fae] font-inter font-medium capitalize hover:opacity-50">
                 Home
               </NavLink>
-              <NavLink to="/" className="text-sm text-[#636270] font-inter font-medium capitalize">
+              <NavLink
+                to="/"
+                className="text-sm text-[#636270] font-inter font-medium capitalize hover:opacity-50 hover:text-[#029fae]"
+              >
                 Shop
               </NavLink>
-              <NavLink to="/" className="text-sm text-[#636270] font-inter font-medium capitalize">
+              <NavLink
+                to="/"
+                className="text-sm text-[#636270] font-inter font-medium capitalize hover:opacity-50 hover:text-[#029fae]"
+              >
                 Product
               </NavLink>
-              <NavLink to="/" className="text-sm text-[#636270] font-inter font-medium capitalize">
+              <NavLink
+                to="/"
+                className="text-sm text-[#636270] font-inter font-medium capitalize hover:opacity-50 hover:text-[#029fae]"
+              >
                 pages
               </NavLink>
-              <NavLink to="/" className="text-sm text-[#636270] font-inter font-medium capitalize">
+              <NavLink
+                to="/"
+                className="text-sm text-[#636270] font-inter font-medium capitalize hover:opacity-50 hover:text-[#029fae]"
+              >
                 about
               </NavLink>
             </nav>
           </div>
 
-          <div className="navbar_bottom_right">
+          <div className="navbar_bottom_right flex items-center">
             <p className="text-sm text-[#636270] font-inter font-normal capitalize">
               contact <span className="text-[#272343]">(808)555-0111</span>
             </p>

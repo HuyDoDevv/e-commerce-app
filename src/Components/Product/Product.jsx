@@ -124,7 +124,10 @@ const Product = () => {
 
       <div className="grid grid-cols-4 items-center gap-6">
         {productFilter?.map((product, index) => (
-          <div key={index} className="p-4">
+          <div
+            key={index}
+            className="p-4 transition transform duration-300 hover:-translate-y-1 hover:opacity-50 cursor-pointer shadow rounded-lg"
+          >
             <div className="feature_image mb-4 relative">
               <img className="w-full max-h-[312px] object-cover rounded-lg" src={product?.image} alt={product?.title} />
               {product?.status && (

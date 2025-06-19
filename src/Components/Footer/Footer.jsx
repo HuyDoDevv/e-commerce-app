@@ -1,4 +1,4 @@
-import { Armchair, Banknote, CreditCard, Facebook, Instagram, Twitter, Youtube } from 'lucide-react'
+import { Armchair, Facebook, Instagram, Twitter, Youtube } from 'lucide-react'
 import { Link } from 'react-router'
 
 const Footer = () => {
@@ -18,36 +18,6 @@ const Footer = () => {
                 comfort, supports your posture, and complements your lifestyle. Our chairs are thoughtfully designed
                 with a balance of form and function.
               </p>
-              <div className="footer_social">
-                <Link>
-                  <Facebook
-                    className="p-3 rotate-full border-[#007580] inline-block border-[1px]"
-                    size="1.5rem"
-                    color="007580"
-                  />
-                </Link>
-                <Link>
-                  <Twitter
-                    className="p-3 rotate-full border-[#007580] inline-block border-[1px]"
-                    size="1.5rem"
-                    color="007580"
-                  />
-                </Link>
-                <Link>
-                  <Instagram
-                    className="p-3 rotate-full border-[#007580] inline-block border-[1px]"
-                    size="1.5rem"
-                    color="007580"
-                  />
-                </Link>
-                <Link>
-                  <Youtube
-                    className="p-3 rotate-full border-[#007580] inline-block border-[1px]"
-                    size="1.5rem"
-                    color="007580"
-                  />
-                </Link>
-              </div>
             </div>
 
             <div className="footer_wrapper">
@@ -139,17 +109,6 @@ const Footer = () => {
             <div>
               <p className="text-base text-[9a9caa] font-normal font-inter ">
                 @ 2025 Blogy - Designed & Develop <span className="text-[#272343]">Lifeonthecode</span>
-              </p>
-            </div>
-
-            <div className="flex items-center gap-3.5">
-              <p className="flex items-center gap-2 text-[#9a9caa] text-xl">
-                Bank Note
-                <Banknote size="2rem" />
-              </p>
-              <p className="flex items-center gap-2 text-[#9a9caa] text-xl">
-                Credit Card
-                <CreditCard size="2rem" />
               </p>
             </div>
           </div>
