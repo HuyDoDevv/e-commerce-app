@@ -1,4 +1,3 @@
-import { ShoppingCart } from 'lucide-react'
 import SectionTitle from '../SectionTitle/SectionTitle'
 import Slider from 'react-slick'
 

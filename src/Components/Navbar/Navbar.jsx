@@ -57,10 +57,57 @@ const Navbar = () => {
 
           {/* narbar middle right */}
           <div className="navbar_middle_right flex items-center gap-4">
-            <button className="btn capitalize">
-              <ShoppingCart />
-              Cart <div className="badge badge-sm bg-[#029fae]">2</div>
-            </button>
+            <div className="dropdown dropdown-hover">
+              <div tabIndex={0} role="button" className="btn m-1">
+                <ShoppingCart />
+                Cart <div className="badge badge-sm bg-[#029fae]">3</div>
+              </div>
+              <ul
+                tabIndex={0}
+                className="dropdown-content menu bg-base-100 rounded-box z-1 min-w-[350px] p-2 shadow-sm"
+              >
+                <li>
+                  <a>
+                    <div className="w-full max-h-[100px] flex items-center justify-center gap-3">
+                      <div className="max-h-[50px] max-w-[50px]">
+                        <img className="w-full h-full bg-cover" src="/src/assets/banner/banner-1.png" alt="" />
+                      </div>
+                      <div className="flex flex-col items-start gap-2">
+                        <h3 className="font-inter font-semibold text-xl capitalize">Scallop velvet chair</h3>
+                        <p className="font-inter font-medium text-[#9a9caa]">300$</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <div className="w-full max-h-[100px] flex items-center justify-center gap-3">
+                      <div className="max-h-[50px] max-w-[50px]">
+                        <img className="w-full h-full bg-cover" src="/src/assets/banner/banner-2.png" alt="" />
+                      </div>
+                      <div className="flex flex-col items-start gap-2">
+                        <h3 className="font-inter font-semibold text-xl capitalize">patio armchair</h3>
+                        <p className="font-inter font-medium text-[#9a9caa]">120$</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <div className="w-full max-h-[100px] flex items-center justify-center gap-3">
+                      <div className="max-h-[50px] max-w-[50px]">
+                        <img className="w-full h-full bg-cover" src="/src/assets/banner/banner-3.png" alt="" />
+                      </div>
+                      <div className="flex flex-col items-start gap-2">
+                        <h3 className="font-inter font-semibold text-xl capitalize">Scandinavian accent chair</h3>
+                        <p className="font-inter font-medium text-[#9a9caa]">199$</p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
             <button className="btn capitalize">
               <Heart />
             </button>

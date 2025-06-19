@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionTitle from '../SectionTitle/SectionTitle'
-import { ShoppingCart, User } from 'lucide-react'
+import { User } from 'lucide-react'
 import Slider from 'react-slick'
 
 const Client = () => {
